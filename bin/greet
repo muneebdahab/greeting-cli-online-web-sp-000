@@ -2,3 +2,10 @@
 require_relative "../lib/greeting.rb"
 
 # code your CLI here!
+puts "Hello, welcome to the terminal"
+
+puts "Enter your name down below before proceeding"
+
+greeting = gets.strip
+
+greeting(name)
