@@ -6,6 +6,6 @@ puts "Hello, welcome to the terminal"
 
 puts "Enter your name down below before proceeding"
 
-greeting = gets.strip
+name = gets.strip
 
 greeting(name)
